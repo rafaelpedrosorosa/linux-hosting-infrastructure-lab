@@ -1,97 +1,46 @@
-# Desafio Umbler
+# Desafio Técnico Umbler
 
-## Parte 1 - Diagnóstico e Troubleshooting
-
-Foi desenvolvido um procedimento básico de troubleshooting para ambientes Nginx + PHP-FPM, contemplando:
-
-* Diagnóstico de erro 502 Bad Gateway;
-* Verificação de serviços;
-* Consulta de logs;
-* Identificação das causas mais comuns;
-* Script de health check para validação dos serviços e da aplicação.
-
-### Evidências
-
-Para mais detalhes sobre o processo de diagnóstico e troubleshooting, consulte:
-
-- `parte1/troubleshooting.md`
-
-#### Serviços ativos
-
-![Serviços Ativos](parte1/evidencias/01-servicos-ativos.png)
-
-#### Execução do Health Check
-
-![Health Check](parte1/evidencias/02-health-check-e-log.png)
-
----
-
-## Parte Opcional - Docker
-
-## Objetivo
-
-Montar um ambiente simples de desenvolvimento utilizando Docker Compose contendo Nginx, PHP-FPM e MariaDB.
+Repositório contendo a implementação das atividades propostas no desafio técnico para a vaga de Analista de Infraestrutura Linux.
 
 ## Estrutura
 
-Foram utilizados três containers separados:
+### Parte 1 - Linux e Resolução de Problemas
 
-* Nginx para receber as requisições HTTP;
-* PHP-FPM para processar os arquivos PHP;
-* MariaDB para armazenamento dos dados.
+Documentação de troubleshooting para erro 502 em ambiente Nginx + PHP-FPM e implementação de script de health check.
 
-A comunicação entre os containers ocorre através da rede criada automaticamente pelo Docker Compose.
+Local: `parte1/`
 
-## Implementação
+### Parte 2 - Automação com Shell Script
 
-O Nginx foi configurado para encaminhar as requisições PHP para o container PHP-FPM utilizando FastCGI.
+Script para criação automatizada de ambientes de hospedagem compartilhada com Nginx.
 
-Foi criado um arquivo `index.php` contendo apenas a função `phpinfo()` para validar o funcionamento da integração entre Nginx e PHP.
+Local: `parte2/`
 
-Para o banco de dados foi utilizado um volume Docker, garantindo a persistência dos dados mesmo após a recriação dos containers.
+### Parte 3 - Gerenciamento de Configuração (Puppet)
 
-## Estrutura do Projeto
+Respostas conceituais e exemplo de manifest Puppet para gerenciamento do Nginx.
 
-```text
-.
-├── docker-compose.yml
-├── mariadb
-│   └── data
-├── nginx
-│   └── default.conf
-├── parte1
-│   ├── health_check.sh
-│   ├── troubleshooting.md
-│   └── evidencias
-├── php
-│   └── index.php
-└── README.md
-```
+Local: `parte3/`
 
-## Execução
+### Parte 4 - E-mail e Deliverability (Exim)
 
-```bash
-docker-compose up -d
-```
+Documentação da abordagem de investigação de problemas de entrega de e-mails.
 
-ou
+Local: `parte4/`
 
-```bash
-docker compose up -d
-```
+### Parte Opcional - Docker
 
-## Validação
+Ambiente de desenvolvimento utilizando Nginx, PHP-FPM e MariaDB através de Docker Compose.
 
-Após a execução do ambiente:
+Local: `opcional-docker/`
 
-```bash
-docker ps
-```
+## Ambiente Utilizado
 
-A aplicação pode ser acessada em:
+* Ubuntu 22.04.5 LTS
+* Nginx
+* PHP-FPM
+* MariaDB
+* Docker Compose
+* Bash
+* Git
 
-```text
-http://localhost:8080
-```
-
-Foi realizado também teste de persistência do MariaDB através da parada e recriação dos containers, confirmando a manutenção dos dados através do volume configurado.

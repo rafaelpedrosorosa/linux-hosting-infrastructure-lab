@@ -1,23 +1,24 @@
-# Parte 1 - Linux e Resolução de Problemas
+## Parte 1 - Diagnóstico e Troubleshooting
 
-## Objetivo
+Foi desenvolvido um procedimento básico de troubleshooting para ambientes Nginx + PHP-FPM, contemplando:
 
-Documentar a abordagem utilizada para diagnóstico de um erro HTTP 502 em ambiente Nginx + PHP-FPM e desenvolver um script simples para validação dos serviços.
+* Diagnóstico de erro 502 Bad Gateway;
+* Verificação de serviços;
+* Consulta de logs;
+* Identificação das causas mais comuns;
+* Script de health check para validação dos serviços e da aplicação.
 
-## Arquivos Entregues
+### Evidências
 
-* `troubleshooting.md` – Respostas da análise de troubleshooting, comandos utilizados, possíveis causas do erro 502 e metodologia de diagnóstico.
-* `health_check.sh` – Script para validação do status dos serviços Nginx e PHP-FPM com registro em log.
-* `evidencias/01-servicos-ativos.png` – Validação dos serviços em execução.
-* `evidencias/02-health-check-e-log.png` – Execução do script e registro das verificações em log.
+Para mais detalhes sobre o processo de diagnóstico e troubleshooting, consulte:
 
-## Evidências
+- `parte1/troubleshooting.md`
 
-### Serviços ativos
+#### Serviços ativos
 
-![Serviços ativos](evidencias/01-servicos-ativos.png)
+![Serviços Ativos](parte1/evidencias/01-servicos-ativos.png)
 
-### Execução do health check
+#### Execução do Health Check
 
-![Health Check](evidencias/02-health-check-e-log.png)
+![Health Check](parte1/evidencias/02-health-check-e-log.png)
 
