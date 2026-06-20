@@ -1,0 +1,24 @@
+2026-06-20 11:41:50 - Iniciando configuração para desafio.com.br
+2026-06-20 11:41:50 - Usuário criado: desafio_com_br
+2026-06-20 11:41:50 - Diretório configurado: /home/desafio_com_br/public_html
+2026-06-20 11:41:50 - Arquivo index.html criado
+2026-06-20 11:41:50 - Virtual host gerado: /etc/nginx/sites-available/desafio.com.br
+2026-06-20 11:41:50 - Virtual host ativado
+2026-06-20 11:41:50 - Nginx validado e recarregado
+2026-06-20 11:41:50 - Finalizado para desafio.com.br
+2026-06-20 11:42:36 - Iniciando configuração para desafio.com.br
+2026-06-20 11:42:36 - Usuário já existe: desafio_com_br
+2026-06-20 11:42:36 - Diretório configurado: /home/desafio_com_br/public_html
+2026-06-20 11:42:36 - Arquivo index.html já existe
+2026-06-20 11:42:36 - Virtual host gerado: /etc/nginx/sites-available/desafio.com.br
+2026-06-20 11:42:36 - Virtual host já estava ativo
+2026-06-20 11:42:36 - Nginx validado e recarregado
+2026-06-20 11:42:36 - Finalizado para desafio.com.br
+2026-06-20 11:47:07 - Iniciando configuração para desafio.com.br
+2026-06-20 11:47:07 - Usuário já existe: desafio_com_br
+2026-06-20 11:47:07 - Diretório configurado: /home/desafio_com_br/public_html
+2026-06-20 11:47:07 - Arquivo index.html já existe
+2026-06-20 11:47:08 - Virtual host gerado: /etc/nginx/sites-available/desafio.com.br
+2026-06-20 11:47:08 - Virtual host já estava ativo
+2026-06-20 11:47:08 - Nginx validado e recarregado
+2026-06-20 11:47:08 - Finalizado para desafio.com.br
