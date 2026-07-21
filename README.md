@@ -15,47 +15,47 @@ Demonstrar conhecimentos aplicados em administração de servidores Linux e hosp
 
 ## Estrutura
 
-### Módulo 1  - Troubleshooting Linux e HTTP 502
+### Módulo 1 — Troubleshooting Linux e HTTP 502
 
-Documentação de troubleshooting para erro 502 em ambiente Nginx + PHP-FPM e implementação de script de health check.
+Documentação de troubleshooting para erros HTTP 502 em ambiente Nginx + PHP-FPM e implementação de script de health check.
 
 Local: `parte1/`
 
-### Módulo 2 - Automação de hospedagem com Basht
+### Módulo 2 — Automação de hospedagem com Bash
 
 Script para criação automatizada de ambientes de hospedagem compartilhada com Nginx.
 
 Local: `parte2/`
 
-### Módulo 3  - Gerenciamento de configuração com Puppet
+### Módulo 3 — Gerenciamento de configuração com Puppet
 
-Respostas conceituais e exemplo de manifest Puppet para gerenciamento do Nginx.
+Respostas conceituais e exemplo de manifesto Puppet para gerenciamento do Nginx.
 
 Local: `parte3/`
 
-### Módulo 4 - E-mail e entregabilidade com Exim
+### Módulo 4 — E-mail e entregabilidade com Exim
 
 Documentação da abordagem de investigação de problemas de entrega de e-mails.
 
 Local: `parte4/`
 
-### Módulo Opcional - Ambiente conteinerizado
+### Módulo adicional — Ambiente conteinerizado
 
-Ambiente de desenvolvimento utilizando Nginx, PHP-FPM e MariaDB através de Docker Compose.
+Ambiente de desenvolvimento utilizando Nginx, PHP-FPM e MariaDB por meio do Docker Compose.
 
 Local: `opcional-docker/`
 
-## Ambiente Utilizado
+## Ambiente utilizado
 
 * Ubuntu 22.04.5 LTS
 * Nginx
 * PHP-FPM
 * MariaDB
 * Docker Compose
+* Puppet
 * Bash
 * Git
 
 ## Observação
 
-Cada parte possui seu próprio README com detalhes da implementação, execução e evidências.
-
+Cada módulo possui seu próprio README com detalhes da implementação, instruções de execução e evidências das validações realizadas.
