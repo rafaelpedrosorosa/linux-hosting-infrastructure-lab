@@ -1,34 +1,45 @@
-# Desafio Técnico Umbler
+# Laboratório de Infraestrutura Linux para Hospedagem Web
 
-Repositório contendo a implementação das atividades propostas no desafio técnico para a vaga de Analista de Infraestrutura Linux.
+Projeto prático de infraestrutura Linux voltado à sustentação de ambientes de hospedagem web, reunindo troubleshooting, automação com Bash, gerenciamento de configuração com Puppet, análise de entregabilidade de e-mails e execução de serviços em containers.
+
+## Objetivo
+
+Demonstrar conhecimentos aplicados em administração de servidores Linux e hospedagem web, incluindo:
+
+* Diagnóstico de erros HTTP 502 em Nginx e PHP-FPM
+* Criação automatizada de ambientes de hospedagem
+* Gerenciamento de configuração com Puppet
+* Investigação de problemas de e-mail com Exim
+* Validação de SPF, DKIM, DMARC e PTR/rDNS
+* Conteinerização com Nginx, PHP-FPM e MariaDB
 
 ## Estrutura
 
-### Parte 1 - Linux e Resolução de Problemas
+### Módulo 1  - Troubleshooting Linux e HTTP 502
 
 Documentação de troubleshooting para erro 502 em ambiente Nginx + PHP-FPM e implementação de script de health check.
 
 Local: `parte1/`
 
-### Parte 2 - Automação com Shell Script
+### Módulo 2 - Automação de hospedagem com Basht
 
 Script para criação automatizada de ambientes de hospedagem compartilhada com Nginx.
 
 Local: `parte2/`
 
-### Parte 3 - Gerenciamento de Configuração (Puppet)
+### Módulo 3  - Gerenciamento de configuração com Puppet
 
 Respostas conceituais e exemplo de manifest Puppet para gerenciamento do Nginx.
 
 Local: `parte3/`
 
-### Parte 4 - E-mail e Deliverability (Exim)
+### Módulo 4 - E-mail e entregabilidade com Exim
 
 Documentação da abordagem de investigação de problemas de entrega de e-mails.
 
 Local: `parte4/`
 
-### Parte Opcional - Docker
+### Módulo Opcional - Ambiente conteinerizado
 
 Ambiente de desenvolvimento utilizando Nginx, PHP-FPM e MariaDB através de Docker Compose.
 
